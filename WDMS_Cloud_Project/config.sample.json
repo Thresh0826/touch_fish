@@ -1,0 +1,99 @@
+{
+  "output_root": "output",
+  "real_output_dir": "output/real",
+  "owners": [],
+  "timing": {
+    "query_timeout_seconds": 15,
+    "total_timeout_seconds": 1800,
+    "heartbeat_timeout_seconds": 120
+  },
+  "mock_faults": {},
+  "real": {
+    "action_timeout_seconds": 45,
+    "startup_timeout_seconds": 30,
+    "launch_if_missing": true,
+    "owner_list_strategy": "",
+    "verified_name_select_confirmed": false,
+    "main_window": {
+      "process_name": "App.exe",
+      "executable_path": "",
+      "class_name": "",
+      "title_regex": "",
+      "pid": null
+    },
+    "login": {
+      "username": "",
+      "credential_target": "",
+      "credential_encoding": "utf-16-le",
+      "window_title_regex": "",
+      "session_marker_id": "",
+      "session_marker_value": "",
+      "success_marker_id": "",
+      "success_marker_value": "",
+      "failure_marker_id": "",
+      "failure_marker_value": "",
+      "username_control_id": "",
+      "password_control_id": "",
+      "submit_button_id": "",
+      "timeout_seconds": 30,
+      "mode": "automatic",
+      "success_marker_scope": "main",
+      "session_marker_text_source": "window_text",
+      "success_marker_text_source": "window_text",
+      "failure_marker_text_source": "window_text"
+    },
+    "navigation": {
+      "steps": [
+        {
+          "label": "在库管理",
+          "automation_id": "",
+          "page_marker_id": "",
+          "page_marker_value": ""
+        },
+        {
+          "label": "在库查询",
+          "automation_id": "",
+          "page_marker_id": "",
+          "page_marker_value": ""
+        },
+        {
+          "label": "在库商品检索",
+          "automation_id": "",
+          "page_marker_id": "",
+          "page_marker_value": ""
+        }
+      ]
+    },
+    "controls": {
+      "page_container_id": "",
+      "owner_combo_id": "cmbLjq",
+      "search_button_id": "btnSearch",
+      "whole_count_id": "lblZjs",
+      "loose_count_id": "lblSjs",
+      "whole_count_text_source": "window_text",
+      "loose_count_text_source": "window_text"
+    },
+    "query_evidence": {
+      "strategy": "",
+      "confirmed": false,
+      "validation_record": "",
+      "verified_date": "",
+      "client_version": "",
+      "result_owner_control_id": "",
+      "result_owner_text_source": "window_text",
+      "version_control_id": "",
+      "version_text_source": "window_text",
+      "complete_control_id": "",
+      "complete_text_source": "window_text",
+      "complete_value": "",
+      "busy_control_id": "",
+      "busy_text_source": "window_text",
+      "busy_value": "",
+      "idle_value": ""
+    },
+    "control_scan": {
+      "max_depth": 6,
+      "max_nodes": 700
+    }
+  }
+}

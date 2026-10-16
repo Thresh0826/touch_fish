@@ -1,0 +1,628 @@
+{
+  "schema": 1,
+  "product": "摸鱼小工具",
+  "revision": "moyu-v3",
+  "bundled_dependencies": false,
+  "source_commit": "17a038d3bb2d51a103544e4fd1bfa2056a9b9d5d",
+  "branch": "feature/moyu-tools",
+  "windows_verified": false,
+  "native_windows_compilation_verified": false,
+  "files": {
+    "WDMS_Cloud_Project/.gitignore": {
+      "size": 192,
+      "sha256": "c763c1c3d725a199a2ebe3f69647317b1851890c58a532b68eda0690bc986488"
+    },
+    "WDMS_Cloud_Project/CLOUD_HANDOFF.md": {
+      "size": 5792,
+      "sha256": "c3d22dbcc7d833fc571f68b2eff9d9d20e856dad964ff5a7b20daa2fb3469e1a"
+    },
+    "WDMS_Cloud_Project/CODEX_TASK_PROMPT.md": {
+      "size": 1245,
+      "sha256": "16082da53ebb8b6fc3474363513379de99e6b4f2afc5d80f643a4a067c98ffae"
+    },
+    "WDMS_Cloud_Project/README.md": {
+      "size": 8479,
+      "sha256": "7845731722bf4687699a497402cb100fa764c0513ddd598e787acb22beb29dd8"
+    },
+    "WDMS_Cloud_Project/adapters/__init__.py": {
+      "size": 50,
+      "sha256": "9cceaf1087fff8aa4333063bba61764f7e91837490d38dd7453c48c77aaf347f"
+    },
+    "WDMS_Cloud_Project/adapters/base.py": {
+      "size": 1062,
+      "sha256": "0485bcb1aec4f7142c6a86dceccf4c43de2879e6627c75e335858d29eb84bdb5"
+    },
+    "WDMS_Cloud_Project/adapters/mock_wdms.py": {
+      "size": 5557,
+      "sha256": "d3c03c4c64914bdf20c7e6194297be816b6004a9ab25c3d9dfd2e5d831261887"
+    },
+    "WDMS_Cloud_Project/adapters/native_windows.py": {
+      "size": 40033,
+      "sha256": "90f6535e0f0241021e4ed44a36239fe1c5ee099aa7a60f942bd43f9ab868af40"
+    },
+    "WDMS_Cloud_Project/adapters/real_wdms.py": {
+      "size": 4166,
+      "sha256": "d63a13c9ea0d312a76519882cee40c5bfb7398482da5bd19de9ec3419155d38f"
+    },
+    "WDMS_Cloud_Project/adapters/supervisor.py": {
+      "size": 6771,
+      "sha256": "c2dcff2fb525900fbdb849d773a7ef942635716f6a37fba53097b71fb16a004f"
+    },
+    "WDMS_Cloud_Project/adapters/windows_environment.py": {
+      "size": 4502,
+      "sha256": "2dc581659331cbf4215582da247ce2b7ef025b5d7ac3a35689f5e1e669b66783"
+    },
+    "WDMS_Cloud_Project/adapters/worker.py": {
+      "size": 38335,
+      "sha256": "e9b3fc54d7a637df3bf2bf03f538396e7a727f7c7d8211eac2bdb762077d07af"
+    },
+    "WDMS_Cloud_Project/assets/toolbar_inventory_18.png": {
+      "size": 15855,
+      "sha256": "46549712f44e97f522167ead3113947ed3df61a8bd90b02caa7344eb8ff3fd8f"
+    },
+    "WDMS_Cloud_Project/config.existing-session.sample.json": {
+      "size": 2702,
+      "sha256": "c3b404fb785c4772571b63b1f3a2e1d7319ce31380e757a0dcfdf66b49289427"
+    },
+    "WDMS_Cloud_Project/config.py": {
+      "size": 9825,
+      "sha256": "ed0aa2c18e65104c47a8b367a6bbab973c670da8d0000e4add82c83f371a53ea"
+    },
+    "WDMS_Cloud_Project/config.sample.json": {
+      "size": 2694,
+      "sha256": "67d63f9741853752688e19b7779bd2d5c3a5dab2289d11717ffa4654c4351301"
+    },
+    "WDMS_Cloud_Project/core/__init__.py": {
+      "size": 51,
+      "sha256": "243d4e566fbf7698adf07e0a63f0de90c6db59af4e4fddc171f140944be63b3e"
+    },
+    "WDMS_Cloud_Project/core/collection_contracts.py": {
+      "size": 2965,
+      "sha256": "2106efcd92df0dc59a170c8df24e31cfd074311ab33b4d9873d275b2e27b7dd0"
+    },
+    "WDMS_Cloud_Project/core/inventory_service.py": {
+      "size": 3111,
+      "sha256": "90e830d7d61143a8d28aa4176f366b4afaa91fff95c889e5978c45ef1d621532"
+    },
+    "WDMS_Cloud_Project/core/login_policy.py": {
+      "size": 1000,
+      "sha256": "850340c0aeb628ee0a19260221eef36a2fd93f7f03609731b76dfe99ccb315cc"
+    },
+    "WDMS_Cloud_Project/core/native_batch.py": {
+      "size": 9055,
+      "sha256": "1848b4d7fdb3197b96d564a7d16bb9391fbf2cfc0a85feaeb0f68502ed6d5f7e"
+    },
+    "WDMS_Cloud_Project/core/native_collection.py": {
+      "size": 13668,
+      "sha256": "c9d196d51a8eabfcfc831d2aeee05f9f5978f627181814f4f3abe64c8d99978d"
+    },
+    "WDMS_Cloud_Project/core/native_workflow.py": {
+      "size": 10139,
+      "sha256": "dc1e72160ff26bf450896f8814c8a62db85a1a9c2b2be02113178fd3b33bc5d3"
+    },
+    "WDMS_Cloud_Project/core/numbers.py": {
+      "size": 2947,
+      "sha256": "4845c9a4d1144944928ecbc888bc98c8c8a152b3182cc6039ad3e85ecd6b2607"
+    },
+    "WDMS_Cloud_Project/core/query_policy.py": {
+      "size": 2470,
+      "sha256": "2a2cd27f370a7de16bfcbc26c0704e08d30b2bcc14e07be8962594133ca0e810"
+    },
+    "WDMS_Cloud_Project/core/report_contract.py": {
+      "size": 437,
+      "sha256": "f8c4f52f6ff5eea893929c22fd79ececc72773233877616798c5c281bb63ac5c"
+    },
+    "WDMS_Cloud_Project/core/step_executor.py": {
+      "size": 5729,
+      "sha256": "86c6bf4612387dfff45d5ad0c0c33b0cb0509dd722cef46c0ae0f00e7a2a7bd2"
+    },
+    "WDMS_Cloud_Project/core/task_runner.py": {
+      "size": 7154,
+      "sha256": "7377a68f0c1cc3680561ba8c6070d694c7ff4da967d68de803f0249772792622"
+    },
+    "WDMS_Cloud_Project/desktop_demo/__init__.py": {
+      "size": 44,
+      "sha256": "0e6e4c2ed85f19f883f2a70d1af76637e1b2b5a73e7e064a4470d985adc68369"
+    },
+    "WDMS_Cloud_Project/desktop_demo/app.py": {
+      "size": 19486,
+      "sha256": "9793678caf7c3e2df772383ea72c656c92f9dc344ef99b6f21af8ed71a755ece"
+    },
+    "WDMS_Cloud_Project/desktop_demo/credentials.py": {
+      "size": 2852,
+      "sha256": "af5836afef6d737a00e9d69f7b61facbdf4e5793da43d33e00e118db41c4b7da"
+    },
+    "WDMS_Cloud_Project/desktop_demo/login.py": {
+      "size": 41895,
+      "sha256": "e6475a854efd9fd699bb624bb40b0b25c4bc275910591d3346e9ee025ce3b483"
+    },
+    "WDMS_Cloud_Project/desktop_demo/navigation.py": {
+      "size": 21577,
+      "sha256": "cdb3122a938434dfdf03c45e35341374c8e8a1cda145382ec6edd29101ab3ca1"
+    },
+    "WDMS_Cloud_Project/desktop_demo/navigation_native.py": {
+      "size": 9538,
+      "sha256": "b3121d48cc77c1106de48cbe817c38c0fa84088a2ac8031e0b2eddf2cdc4fd52"
+    },
+    "WDMS_Cloud_Project/desktop_demo/notices.py": {
+      "size": 6741,
+      "sha256": "4aba9df9495e7ceabc5a4b0e2cbfa689235e94b466d69b1689b52272b7a9c0b9"
+    },
+    "WDMS_Cloud_Project/desktop_demo/owner_discovery.py": {
+      "size": 6742,
+      "sha256": "0e8fd770038e54b2edf27e7acac660aa37260e978f5d2876ed68f6181b3a4fca"
+    },
+    "WDMS_Cloud_Project/desktop_demo/settings.py": {
+      "size": 2958,
+      "sha256": "e2758a566560bbbebb7746a1848875ece98938129ece422149ec455d3da5a246"
+    },
+    "WDMS_Cloud_Project/desktop_demo/toolbar_icon.py": {
+      "size": 10878,
+      "sha256": "b843818bdfc116704116c0fcb36879e6881f2f568c7d497b7694636124d35c9d"
+    },
+    "WDMS_Cloud_Project/desktop_demo/workflow.py": {
+      "size": 9219,
+      "sha256": "d619884d2af088c7ef63893050446e337bf048d997debcf2458cafb578791efd"
+    },
+    "WDMS_Cloud_Project/docs/acceptance.md": {
+      "size": 1932,
+      "sha256": "56d00cc8159a1afdf2de57a8112fbe947302775f5609736ed11c7e1506a71d66"
+    },
+    "WDMS_Cloud_Project/docs/architecture_p0.md": {
+      "size": 3375,
+      "sha256": "d638e65c2083d366b0a8d9c6ddadf15826305abcc7e27783592e9e7dcd447391"
+    },
+    "WDMS_Cloud_Project/docs/decimal_fix_v2_3.md": {
+      "size": 1752,
+      "sha256": "45ad5c321f385c9a085cf88ec29e7e3009d5a45fc6ae92899a5e7904f54abba8"
+    },
+    "WDMS_Cloud_Project/docs/deployment.md": {
+      "size": 8678,
+      "sha256": "c13bd465fda51fe411a978292c2170ef761b8cddfbee9aa5360791ef9f0df9db"
+    },
+    "WDMS_Cloud_Project/docs/desktop_demo.md": {
+      "size": 6018,
+      "sha256": "0469cbe937ac0b73ee1afea5a99665fb2eeea7bb9e0c0a5d65f7e5307040a84a"
+    },
+    "WDMS_Cloud_Project/docs/development_report.md": {
+      "size": 2054,
+      "sha256": "2bdaebe291ca8512cf478e085178fffeb6b5e8f45c56cc5fca9746fcbfaedb34"
+    },
+    "WDMS_Cloud_Project/docs/fix_handoff_20261010.md": {
+      "size": 4739,
+      "sha256": "6365d924248e3433706eecd7bab666d36e11685d09a7c308ad99da2689d60c8b"
+    },
+    "WDMS_Cloud_Project/docs/login_completion_20261014.md": {
+      "size": 2403,
+      "sha256": "c2aede740bdf13d3abea030268676272e546c8d808e19552aecfc26df41ffda9"
+    },
+    "WDMS_Cloud_Project/docs/menu_msaa_diagnostic.md": {
+      "size": 10049,
+      "sha256": "aa98637f0b5db2580910bba10090d7833a7fcc47f2e6d1bce5cdf0476c218b17"
+    },
+    "WDMS_Cloud_Project/docs/moyu_portable.md": {
+      "size": 5547,
+      "sha256": "d9eedd7db8118f51a6eef9ed5159e41a363119ce0c7e35d9c3f9e1440a4d784c"
+    },
+    "WDMS_Cloud_Project/docs/moyu_tools.md": {
+      "size": 9396,
+      "sha256": "ac65ca751980d242b7d2a2be1095949ef9453174a266c1b492f7567da3f6a0e0"
+    },
+    "WDMS_Cloud_Project/docs/native_architecture.md": {
+      "size": 7715,
+      "sha256": "7e4f79dca8a494c6ce4cba0c405e2c308d69c43c7aafaba2b34c3152e8da9bcc"
+    },
+    "WDMS_Cloud_Project/docs/native_trial.md": {
+      "size": 3313,
+      "sha256": "f1709975fd287ae5cdc9068026da8fa0052015c7cf8f80c6dc04268f89994c1b"
+    },
+    "WDMS_Cloud_Project/docs/navigation_trial.md": {
+      "size": 5014,
+      "sha256": "73d169c507d6cac7e62485f4f156e93d807559593f1731f7148c16462c5676a6"
+    },
+    "WDMS_Cloud_Project/docs/review_followup_20261014.md": {
+      "size": 3707,
+      "sha256": "089a31a920144faf9241631f8fbaa9168851da4b7284740a75f917ac067e1dfe"
+    },
+    "WDMS_Cloud_Project/docs/startup_readiness_20261014.md": {
+      "size": 2559,
+      "sha256": "12630e402b09b1a347d26aedb555d27574118e24fa97175d3c69f8793941cc6d"
+    },
+    "WDMS_Cloud_Project/docs/toolbar_icon_navigation.md": {
+      "size": 6136,
+      "sha256": "077af8085cfc777c745af7a4c0992ff1376f0ebb26b8e6647d7322e993e01180"
+    },
+    "WDMS_Cloud_Project/docs/window_probe_fix_v2.md": {
+      "size": 3695,
+      "sha256": "5aded39be04002a7d0275f040e9e6e991997eb233a7112a78990b26d5a45f0ae"
+    },
+    "WDMS_Cloud_Project/docs/workflow_trial.md": {
+      "size": 8636,
+      "sha256": "a63ab43751943d90657e11118c58130c05eb8652c78784d0cdfae73659c20f52"
+    },
+    "WDMS_Cloud_Project/errors.py": {
+      "size": 918,
+      "sha256": "dc5105b6529e016d40ddbd145c458c799995828273075933f1c3feee145f5b9b"
+    },
+    "WDMS_Cloud_Project/main.py": {
+      "size": 2410,
+      "sha256": "4e68c0cc595e16ea18cd8dd83a8194aafa205b76f85a48cd5913f3daf5e9f1a7"
+    },
+    "WDMS_Cloud_Project/moyu_tools/__init__.py": {
+      "size": 93,
+      "sha256": "4525e9583060aca2a9155f3aa267de92e2ed29c2971a5f3e7cd677fa9fa84117"
+    },
+    "WDMS_Cloud_Project/moyu_tools/app.py": {
+      "size": 24612,
+      "sha256": "cc77beaa4f8e5dc72639bacec6945ffe756035a6accafa10bfff61e46e17ef76"
+    },
+    "WDMS_Cloud_Project/moyu_tools/bridge.py": {
+      "size": 3989,
+      "sha256": "73d422212bd58d032da7376f821239279d8402211ed0afe34a823618771dc514"
+    },
+    "WDMS_Cloud_Project/moyu_tools/calibration.py": {
+      "size": 5429,
+      "sha256": "79cfa4a5af31d176d862e6d8c44cabfd91fdea3aa74dc57043dfdc3fcc4c79fa"
+    },
+    "WDMS_Cloud_Project/moyu_tools/direct_copy.py": {
+      "size": 3892,
+      "sha256": "eb82f5c11d7bd5a284bea8f605ade15bfce55d974c6f258de95bb6f7c89f9120"
+    },
+    "WDMS_Cloud_Project/moyu_tools/engine.py": {
+      "size": 16329,
+      "sha256": "4a6b1a427be4629ee41deb19cb9ebdac2d60c3b794004cbded45a526568bab08"
+    },
+    "WDMS_Cloud_Project/moyu_tools/files.py": {
+      "size": 4421,
+      "sha256": "a743c3b2c6fdbca348d78ad0b73c6a86c0548a348abcd5bc98e3bc1e6736be48"
+    },
+    "WDMS_Cloud_Project/moyu_tools/launch.ps1": {
+      "size": 5331,
+      "sha256": "d6918ac4828c8ecc896d72237e69227a5fe70a779d48cc145231b5ead51469ed"
+    },
+    "WDMS_Cloud_Project/moyu_tools/model.py": {
+      "size": 3917,
+      "sha256": "8cdd139400c756ddb3e9d8f7f1fb009177ade63974abdb73c3d60d7221116ea8"
+    },
+    "WDMS_Cloud_Project/moyu_tools/native.py": {
+      "size": 28835,
+      "sha256": "e289a34b49e9dbae77aa02ddd10100132b18f3f04413a4e404d75b0d4a66766c"
+    },
+    "WDMS_Cloud_Project/moyu_tools/portable.py": {
+      "size": 3219,
+      "sha256": "aab14a8c33003ef5cdcec47b2bda5a400a8819e56eeec6df2ec19fbe70db4336"
+    },
+    "WDMS_Cloud_Project/moyu_tools/runtime.py": {
+      "size": 13744,
+      "sha256": "ebb2ce6e0fb5eea7fd5287d8658ea15de00b22d8fba890fc3b00179f62fdea37"
+    },
+    "WDMS_Cloud_Project/moyu_tools/settings.py": {
+      "size": 5958,
+      "sha256": "8c3515bc00baa4cba2ae320b68efcbe3c0076b34e08d4f14f03f4dd3ce441618"
+    },
+    "WDMS_Cloud_Project/moyu_tools/sheet.py": {
+      "size": 9266,
+      "sha256": "9a9a74619cec5c824809dc66ef349e2e0f1cceaf97521d92be8a455ce74b6208"
+    },
+    "WDMS_Cloud_Project/moyu_tools/store.py": {
+      "size": 7036,
+      "sha256": "6cd631a1d560df8d6fe16a7efe31482d202c2b1d1e7eb43d3f33326ed0b82143"
+    },
+    "WDMS_Cloud_Project/moyu_tools/windows_bridge.ps1": {
+      "size": 13423,
+      "sha256": "b91607f935bc45075b9b9292e2bfa071b0183b1be7b39d8413d09cab4a60fba2"
+    },
+    "WDMS_Cloud_Project/moyu_tools/windows_native.cs": {
+      "size": 31711,
+      "sha256": "ad6d57e09b90021e7e49e6cd2f39ed3eadb6751201d217a0546849d069c30076"
+    },
+    "WDMS_Cloud_Project/moyu_tools/wizard.py": {
+      "size": 16510,
+      "sha256": "78131e5879e8f9b55a44319c3b440c018ee6332c2b44aed6aea265adb95edd61"
+    },
+    "WDMS_Cloud_Project/requirements-windows.txt": {
+      "size": 70,
+      "sha256": "7f76ad16ad957cabd101e23b41d66e582d14013ca247936840dd43ee557f24ef"
+    },
+    "WDMS_Cloud_Project/requirements.txt": {
+      "size": 17,
+      "sha256": "9bba605fd7b6ea23038de15e5a1ae6714b3d3fb14ed2d6e6bedbfb0665ca2122"
+    },
+    "WDMS_Cloud_Project/scripts/MoyuTools.py": {
+      "size": 698,
+      "sha256": "86be27c1da219a7e3001ccb3566cfc092e45ac9399a9dce617206b08be4c0725"
+    },
+    "WDMS_Cloud_Project/scripts/WDMS_Demo.py": {
+      "size": 1242,
+      "sha256": "0cdd14b5f863d0a7ecb3d99abd7348ea580f542fa7095dc87d7862dca2bcb37a"
+    },
+    "WDMS_Cloud_Project/scripts/__init__.py": {
+      "size": 34,
+      "sha256": "ea79511c0cb47627c1e7365d68f39d58794763a99d42c883daa0c5c1027e8572"
+    },
+    "WDMS_Cloud_Project/scripts/build_demo.ps1": {
+      "size": 1462,
+      "sha256": "f2156d7de8089378b85688589c68e31cc82f516b95570c7d7136c62724a79d8d"
+    },
+    "WDMS_Cloud_Project/scripts/check_environment.py": {
+      "size": 782,
+      "sha256": "a3e990dbd60e1ad61697aa2898c3becb1275a7da530753971478f0bc31cebc07"
+    },
+    "WDMS_Cloud_Project/scripts/check_moyu_runtime.py": {
+      "size": 989,
+      "sha256": "16ce8d69a7287ba9540000ef3ca5e9f828cd2ddd8180c293958bf7d59dadd806"
+    },
+    "WDMS_Cloud_Project/scripts/check_source.py": {
+      "size": 5481,
+      "sha256": "689ccf9ecc8c7fea4d523a9a3e8b6977fe836e7b25edd6d7f2abdfc04246d362"
+    },
+    "WDMS_Cloud_Project/scripts/check_status.py": {
+      "size": 974,
+      "sha256": "bbe2aacc68ea9e8363915d6bcc865a49f17c97fcd4697da6bed282ac29b72357"
+    },
+    "WDMS_Cloud_Project/scripts/check_wdms_startup.py": {
+      "size": 4066,
+      "sha256": "1738a3e4ddc156afd1a3854e4fe774660b4b0acfe8044bea318ad435559340fa"
+    },
+    "WDMS_Cloud_Project/scripts/check_wdms_window.py": {
+      "size": 11393,
+      "sha256": "1b7555eabd7fd71ae1943af11687c31ba3da97dbdccaa8c013032a01d424657c"
+    },
+    "WDMS_Cloud_Project/scripts/diagnose_wdms_menu.py": {
+      "size": 23296,
+      "sha256": "b6adf105a57044f195e3bd75e49553f318bc24056daaab2e7532ecba6c1bf4a0"
+    },
+    "WDMS_Cloud_Project/scripts/native_trial_owners.sample.json": {
+      "size": 795,
+      "sha256": "f5def779dc130a070570ad47c040a142d8e0b1b126b8f10389086579a7f0fdea"
+    },
+    "WDMS_Cloud_Project/scripts/run_inventory.bat": {
+      "size": 296,
+      "sha256": "d61e067741d8f46e383e2363739c32ef523756493ac43afc49e8a708b433d8ae"
+    },
+    "WDMS_Cloud_Project/scripts/run_native_trial.py": {
+      "size": 10401,
+      "sha256": "241384833a32d6930a9902a30f2df5a615535269d6005ad3da2e03c776d888ca"
+    },
+    "WDMS_Cloud_Project/scripts/run_startup_menu_diagnostic.py": {
+      "size": 4096,
+      "sha256": "5ddcf19b211e47ecc44aaca19a4e42df2685a32fcd2944fb93e963c4a4bdb929"
+    },
+    "WDMS_Cloud_Project/scripts/toolbar_icon_matcher.cs": {
+      "size": 7079,
+      "sha256": "6ea1c0c7ce9e0fb0d075cd7edd62f4773440abefad5644bf6676c93a3b1746ff"
+    },
+    "WDMS_Cloud_Project/scripts/wdms_menu_msaa.ps1": {
+      "size": 30066,
+      "sha256": "0dd8060f205e0dce44165c7b50a4fd8e41fef08461eadcc0ce9a848038a682c0"
+    },
+    "WDMS_Cloud_Project/scripts/wdms_toolbar_icon.ps1": {
+      "size": 9174,
+      "sha256": "4134ae2bed473aafabf0f8a22bfd34676a0df5d8517aa346827377b1e79f708a"
+    },
+    "WDMS_Cloud_Project/services/__init__.py": {
+      "size": 43,
+      "sha256": "3aa9e615b4ebfbd00e18d5a5014c988d5e6ca8610a93809d306b2f7e7f11142f"
+    },
+    "WDMS_Cloud_Project/services/event_log.py": {
+      "size": 2896,
+      "sha256": "5e58f5567d0dc374dcb570cf7144a58e6e552a185e15ab64f49e715a7c7b1de1"
+    },
+    "WDMS_Cloud_Project/services/excel_reporter.py": {
+      "size": 8005,
+      "sha256": "d1d671bc68a0a58f88f3c4b03ff88770ca61f2746ab7cb51ff3abf3fd89b35dc"
+    },
+    "WDMS_Cloud_Project/services/file_retry.py": {
+      "size": 780,
+      "sha256": "dd863ff6efd1ca56d98327b9dc77cc2b416be8e6318119f52e18330380ad7e2f"
+    },
+    "WDMS_Cloud_Project/services/native_results.py": {
+      "size": 4294,
+      "sha256": "6423e1f8ddc2d15d0ba128fef782fd8183593b1a9c5a2f1c9240666aec9cefce"
+    },
+    "WDMS_Cloud_Project/services/native_worker.py": {
+      "size": 2300,
+      "sha256": "71187e740df03c5538ac120bc4630f2d21e70dc3ab5e1a5230a03e0eca75f522"
+    },
+    "WDMS_Cloud_Project/services/owner_catalog.py": {
+      "size": 4108,
+      "sha256": "838370a4fcd6d467915cca5d1ef39cca2aef3bfe4073841ee84a84a6618c70cd"
+    },
+    "WDMS_Cloud_Project/services/process_supervisor.py": {
+      "size": 3485,
+      "sha256": "700c9e82e77cc2c3263bc9baf05e840ab18118933ea663b52cdd20ca5a77bb6d"
+    },
+    "WDMS_Cloud_Project/services/stage_invocation.py": {
+      "size": 469,
+      "sha256": "660587020ec4d0506f21a5576c19dd1e2484393fcec1537229cbbe434f084c9e"
+    },
+    "WDMS_Cloud_Project/services/status_checker.py": {
+      "size": 5954,
+      "sha256": "f22805bf29b35bdb0296f365eeb89a8c67bb56e18e78f2794fd7e7649b18dd0a"
+    },
+    "WDMS_Cloud_Project/services/status_manager.py": {
+      "size": 5517,
+      "sha256": "c63530c57f9998ffdcb93054e31ae144ff50020030d5bda0cc36a0fdf79d3503"
+    },
+    "WDMS_Cloud_Project/services/task_lock.py": {
+      "size": 2095,
+      "sha256": "4c47ed9031fda20c4f681dd7c3a8cea2f5c98a2df508586d4005092a00549ab9"
+    },
+    "WDMS_Cloud_Project/services/trial_excel_reporter.py": {
+      "size": 6795,
+      "sha256": "2c126601262bade22bc165f7e55e7efd0a16ac36d861799dc414a5998412e590"
+    },
+    "WDMS_Cloud_Project/services/workbook_table.py": {
+      "size": 2006,
+      "sha256": "b86aa847373f0abb6dfd9c6190cdf6ca6afb02e837ccb6c40a1680324cebaa92"
+    },
+    "WDMS_Cloud_Project/services/worker_commands.py": {
+      "size": 1373,
+      "sha256": "d829ce0d1e738ea479977f52a59ef0cad4004015ce733307eca974b701b7a7db"
+    },
+    "WDMS_Cloud_Project/services/workflow_evidence.py": {
+      "size": 2264,
+      "sha256": "082f7edd46131e27d389e6c9cb0369d1b4f4dad8c37a5f7be0f5b1dcd39ed545"
+    },
+    "WDMS_Cloud_Project/test_logs/wdms_verify_onsite.py": {
+      "size": 275,
+      "sha256": "26cea84aa77a6eca853bc64666d80585bb0b47a3de045184a4babcfd8552af84"
+    },
+    "WDMS_Cloud_Project/tests/moyu_fixtures.py": {
+      "size": 4713,
+      "sha256": "1be0fc20e6234508a1f0bdbb17b5d4037bfc64c07785829feca5bbbfdb0e1707"
+    },
+    "WDMS_Cloud_Project/tests/native_fixtures.py": {
+      "size": 2996,
+      "sha256": "e9050411569ca19f77c5e900b1977b4583c29735d4a0ac3408f25fa7fb673b97"
+    },
+    "WDMS_Cloud_Project/tests/test_collection_contracts.py": {
+      "size": 25535,
+      "sha256": "21423a1fac639f9f0324135bfc623c78d67c763607b4a0b00ea7d3d04ffa7ce0"
+    },
+    "WDMS_Cloud_Project/tests/test_demo_settings.py": {
+      "size": 3175,
+      "sha256": "c9f7a953d9290d44f9341af5b7e4850cf6bc67f9b58c34e1b071f953752b853b"
+    },
+    "WDMS_Cloud_Project/tests/test_fractional_inventory.py": {
+      "size": 3093,
+      "sha256": "f541b91c355edc7e72d2716aa88d1c35d9d40db99c6774df1f17f262d5368989"
+    },
+    "WDMS_Cloud_Project/tests/test_inventory.py": {
+      "size": 18720,
+      "sha256": "0cfee4e7ae1f966999e66ece22eca8276ce3d46b959bd27d60f960a017d59a4e"
+    },
+    "WDMS_Cloud_Project/tests/test_login_completion.py": {
+      "size": 8113,
+      "sha256": "becb657268132743e3691ab7460d528f9c7c83d4375561e0b139490a3ca9ec66"
+    },
+    "WDMS_Cloud_Project/tests/test_menu_diagnostic.py": {
+      "size": 28040,
+      "sha256": "916dc4c5552ca325afb82f0159bca1c429ac11b7ce61278b52ceb03d1c3e18ab"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_engine.py": {
+      "size": 15804,
+      "sha256": "ef774b5bfc9d365f4ec8edae4ed0aa28255572571cad01c28d09c08614d19ad7"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_native.py": {
+      "size": 17335,
+      "sha256": "cb057507e27550aab62099f6586ef76d5a8dfd08139a674c772271a528fd2c24"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_packaging.py": {
+      "size": 2231,
+      "sha256": "42521a9ff8c69b79e2ed662057abc19f4dc5555d43bccaa0a95b22c12a04c21d"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_portable.py": {
+      "size": 9793,
+      "sha256": "67060e5a9b7f911272e8cde98a8333c78c3d69471bfac1ccb4f16383209eb7f2"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_runtime.py": {
+      "size": 14279,
+      "sha256": "1be84c00ce06fa25ddbedb1913cf960b6a186a808f1a99fc63ee91f49d9df74f"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_sheet_rows.py": {
+      "size": 23223,
+      "sha256": "16bf13ad8386b4be33486a987a2f82b361bc1eb2d387812f7a8d444e5f339edc"
+    },
+    "WDMS_Cloud_Project/tests/test_moyu_simple.py": {
+      "size": 21833,
+      "sha256": "8b502a8d43c126aeb7890f5775b5d77caa651f92f72a7e81aed471f552ce3cc6"
+    },
+    "WDMS_Cloud_Project/tests/test_native_login.py": {
+      "size": 34362,
+      "sha256": "c9f43662cc922d58f644b2fd9eb0234f777fd890696fa664976cead7b5582b4c"
+    },
+    "WDMS_Cloud_Project/tests/test_native_navigation.py": {
+      "size": 29074,
+      "sha256": "4c5f84701cc5a905268eb1d841cf187ab82620e6d364f8b60e566aff9aab9043"
+    },
+    "WDMS_Cloud_Project/tests/test_native_robustness.py": {
+      "size": 5059,
+      "sha256": "2996f62bed33ed043170bb099ca960be9ee20f4e566276c3e24d16e2c17a5f6d"
+    },
+    "WDMS_Cloud_Project/tests/test_native_trial.py": {
+      "size": 29435,
+      "sha256": "43d3a335804027f091ae80965a5f46975be7d68326795f9d3ec7d34b6c1a918a"
+    },
+    "WDMS_Cloud_Project/tests/test_navigation_native.py": {
+      "size": 8881,
+      "sha256": "f7afafb4df64c8d2352764f2caf884e37d4765ebb5e14b4a1c17b68781adeee4"
+    },
+    "WDMS_Cloud_Project/tests/test_notices.py": {
+      "size": 7321,
+      "sha256": "d6a8546ad8fcf0622564f91b77a2363f114590fc78742352e0f258f551fabf97"
+    },
+    "WDMS_Cloud_Project/tests/test_owner_catalog.py": {
+      "size": 5656,
+      "sha256": "45b9b523b91203df662136ab04b5c4ddcef9d26e8051a6371cfe2df55445752f"
+    },
+    "WDMS_Cloud_Project/tests/test_owner_discovery.py": {
+      "size": 8141,
+      "sha256": "7f2b91b70f9f67d69beeeaffa432c11a3c0ffa04c3833ae51930b18962b18cef"
+    },
+    "WDMS_Cloud_Project/tests/test_source_gate.py": {
+      "size": 4466,
+      "sha256": "7209e41dd00b3a94c83148d05b7da32cf8de70c5b3510cd767439f4d9a6f14e4"
+    },
+    "WDMS_Cloud_Project/tests/test_startup_menu_diagnostic.py": {
+      "size": 3559,
+      "sha256": "3f5ea0a5f3a59fa6d663f343a7a25abf7f4f65d1a085e118b331d4e3df2f0a61"
+    },
+    "WDMS_Cloud_Project/tests/test_startup_probe.py": {
+      "size": 2648,
+      "sha256": "c061d10888f4842cdb86d6da9b77a0aebadf1c81f3ccbb3f4bf5804c085d0562"
+    },
+    "WDMS_Cloud_Project/tests/test_step_executor.py": {
+      "size": 8498,
+      "sha256": "bcaa8c25f936d3c62ebc8a8b705b97d1f4c27666a0244a9b3a4778e08deed0c1"
+    },
+    "WDMS_Cloud_Project/tests/test_step_supervision.py": {
+      "size": 7430,
+      "sha256": "95780690892641080abd3ecd37456a8c133fee7ea5a35f3106244f74f9a6ea58"
+    },
+    "WDMS_Cloud_Project/tests/test_toolbar_icon.py": {
+      "size": 11797,
+      "sha256": "5c81703d9cc947e999edc9f7ed853b08b2cf89ab19c0ffcfa096aebaf19143f8"
+    },
+    "WDMS_Cloud_Project/tests/test_trial_isolation.py": {
+      "size": 4712,
+      "sha256": "609dd895860bbcb8b2dfa4607b97a25d4d35ca79cae333c352e2a0b1f81f06ab"
+    },
+    "WDMS_Cloud_Project/tests/test_window_probe.py": {
+      "size": 27815,
+      "sha256": "f2bc66a5b54ac99e490eb3e564edd6897696ced03a1fce6adf3470df4734ecf1"
+    },
+    "WDMS_Cloud_Project/tests/test_windows_fixes.py": {
+      "size": 7783,
+      "sha256": "99aca6dc7fac0458b755e8c50d24c82e5d19f4461b18810cefadad9458b6e966"
+    },
+    "WDMS_Cloud_Project/tests/test_workflow.py": {
+      "size": 39496,
+      "sha256": "41310137cce2f3bcdfc7efa13bf97b8c8d760dbe091727b153a0420845c4719f"
+    },
+    "WDMS_Cloud_Project/启动Demo.bat": {
+      "size": 382,
+      "sha256": "33e8986c48290495de51d8416a7f8b89c6b95679efea6dead40f9418edc36fff"
+    },
+    "WDMS_Cloud_Project/启动摸鱼小工具.bat": {
+      "size": 153,
+      "sha256": "93820f068a8e32510f767adf73d83b7eb95e90e1457b3db491197e47a288dbd0"
+    },
+    "启动摸鱼小工具.bat": {
+      "size": 195,
+      "sha256": "30229aea631b1ff5907e6b84347cbf9b469f2f3111449189cc347ae1b800f47a"
+    },
+    "工具/打包摸鱼便携包.py": {
+      "size": 11831,
+      "sha256": "be584554f10bdd2f240651c673af9a6887564364bba4ca4aa1162af5347bf642"
+    },
+    "工具/打包摸鱼小工具.py": {
+      "size": 7261,
+      "sha256": "382c80cf24920db7d2c52eccd027639d83b23a03be68f95743bc736e9fac39c7"
+    },
+    "摸鱼小工具操作说明.md": {
+      "size": 9396,
+      "sha256": "ac65ca751980d242b7d2a2be1095949ef9453174a266c1b492f7567da3f6a0e0"
+    }
+  }
+}
