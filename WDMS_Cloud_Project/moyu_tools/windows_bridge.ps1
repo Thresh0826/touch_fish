@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][int]$ParentProcess)
+﻿param([Parameter(Mandatory=$true)][int]$ParentProcess)
 $ErrorActionPreference = 'Stop'
 [Console]::InputEncoding = New-Object System.Text.UTF8Encoding($false)
 [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)

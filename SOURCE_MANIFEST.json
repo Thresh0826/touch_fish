@@ -309,8 +309,8 @@
       "sha256": "6cd631a1d560df8d6fe16a7efe31482d202c2b1d1e7eb43d3f33326ed0b82143"
     },
     "WDMS_Cloud_Project/moyu_tools/windows_bridge.ps1": {
-      "size": 13423,
-      "sha256": "b91607f935bc45075b9b9292e2bfa071b0183b1be7b39d8413d09cab4a60fba2"
+      "size": 13426,
+      "sha256": "6211a7576d13d72d11f61edae2742ebbaebc7297765bad71b8a9902b8cf06c94"
     },
     "WDMS_Cloud_Project/moyu_tools/windows_native.cs": {
       "size": 31711,
